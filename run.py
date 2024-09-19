@@ -128,3 +128,8 @@ if __name__ == "__main__":
     elif st.session_state.page == "main":
         st.sidebar.write(f"Xin chào, {st.session_state.user_name}!")
         main_app()
+
+
+import streamlit as st
+
+st.write("Hello world")
